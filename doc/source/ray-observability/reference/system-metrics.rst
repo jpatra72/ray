@@ -62,6 +62,9 @@ Ray exports a number of system metrics, which provide introspection into the sta
    * - `ray_component_uss_mb`
      - `Component`, `InstanceId`
      - The measured unique set size in megabytes, broken down by logical Ray component. Ray components consist of system components (e.g., raylet, gcs, dashboard, or agent) and the method names of running tasks/actors.
+   * - `ray_component_rss_mb`
+     - `Component`, `InstanceId`
+     - The measured resident set size in megabytes, broken down by logical Ray component. Ray components consist of system components (e.g., raylet, gcs, dashboard, or agent) and the method names of running tasks/actors.
    * - `ray_component_cpu_percentage`
      - `Component`, `InstanceId`
      - The measured CPU percentage, broken down by logical Ray component. Ray components consist of system components (e.g., raylet, gcs, dashboard, or agent) and the method names of running tasks/actors.
